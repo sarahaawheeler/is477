@@ -51,3 +51,16 @@ Final Project Development (November 11-December 5, 2025): We will refine analyse
 
 Final Project Submission (December 6-10, 2025): The completed project will be released on GitHub. We will finalize our code, cleaned datasets, visualizations, and documentation. The final project will be submitted prior to December 10, 2025 once we have completed review and quality checks.
 
+**Constraints**
+
+There are a few primary constraints we anticipate having to deal with. First, the datasets differ in their collection timelines. The sentiment classification dataset spans from January 2020 through September 2024, while the vaccination dataset covers December 2, 2020 to December 12, 2023. To ensure compatibility, we will need to take a subset of the larger dataset to match overlapping periods. Data integration may also be difficult, as the datasets differ in structure and may record dates or variables in inconsistent formats, requiring extensive data cleaning and normalization before analysis. Additionally, both datasets are second-hand, meaning we have no control over how the data was collected or labeled, and potential biases may already exist.
+
+Another limitation lies in the imbalance of representation across languages in the sentiment analysis dataset. While the data includes posts in 161 languages, the top ten most frequently used languages —English (343,041 posts), Spanish (30,220), Hindi (15,832), Portuguese (15,779), Indonesian (11,491), Tamil (9,592), Arabic (9,416), German (7,822), Italian (5,162), and Turkish (4,632)—account for the vast majority of observations. This uneven distribution may skew findings toward English and other high-frequency languages, making our findings non-generalizable to the entire globe. Finally, as this is an observational study, we can identify correlations but cannot establish causation or determine whether changes in sentiment directly influenced vaccination behavior.
+
+**Gaps**
+
+Admittedly, we currently lack extensive experience with sentiment analysis methods, so our understanding of how the data was collected and labeled is limited to secondary documentation. We are also not domain experts in COVID-19 research, public health communication, or social media analytics, which may affect how we interpret patterns in public sentiment. Though we will try to gain an understanding of these topics so our analysis is comprehensive and as accurate as possible, we cannot replicate the education of seasoned experts. Thus, while we can conduct exploratory data analysis and correlation-based assessments, we may need guidance from domain specialists to ensure our interpretations are both contextually accurate and methodologically sound.
+
+Additionally, there are limitations inherent in the datasets themselves. The public sentiment analysis dataset does not allow for full country-wide analysis, so if we wish to examine a subset, such as posts by English speakers only, we will need to carefully define criteria for filtering and consider potential biases in the resulting sample. Addressing these gaps will be important to maintain the validity and reliability of our findings. We may seek input from advisors or existing literature to guide these decisions
+
+
