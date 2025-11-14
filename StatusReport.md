@@ -3,5 +3,13 @@
 
 Since having our project plan approved and beginning work on our analyses, we have been able to make considerable progress on the final project. The timeline outlined in our initial project plan was a great deal of help, and allowed us to break down the tasks into more manageable chunks. We sat down and met about once a week, and discussed our asynchronous work on the project as well as completed many of the preliminary deliverables together. As of now, all data cleaning, descriptive statistics, and integration have been completed. Data cleaning took the bulk of the work, as we had to reference external data sources in order to ensure accuracy. That being said, timeliness was not a particularly relevant dimension of data quality in this project, and we saw no overwhelming issues with completeness or consistency. Integration also took a good deal of time, as we had to filter the datasets to the same subset of dates, and extremely carefully aggregate our vaccination dataset. Ensuring the merge was executed completely required additional quality checks and accuracy validation. All of the tasks including cleaning and quality assurance were executed in the Python workbook in our shared Github repository. While we hoped to also upload our datasets to the repo, the file sizes were too big. That being said, the links to the data can be found both in our project plan and below. In the coming weeks, we plan to complete the visualization and analysis portion of the project, as well as begin working on our final project report. It is our hope that by being proactive on these tasks, we will have the means to integrate data storytelling throughout our report.
 
-Link to Instagram Data: https://zenodo.org/records/13896353
-Link to Vaccination Data: https://www.kaggle.com/datasets/ayufitriani/covid-19-vaccinations-by-our-world-in-data?resource=download 
+**Link to Instagram Data:** https://zenodo.org/records/13896353
+
+**Link to Vaccination Data:** https://www.kaggle.com/datasets/ayufitriani/covid-19-vaccinations-by-our-world-in-data?resource=download 
+
+
+### Team Member Contributions
+#### Sarah: 
+As previously mentioned, a great deal of project work was completed during synchronous meetings. During such meetings, we discussed our tasks and researched how to best analyze and display our data. I have taken a number of technical coding courses and have a bit of real-world experience in data science, so I took on the bulk of the programming. The code in the Python workbook found in our Github repository was produced by me, though Megan and I discussed together the specific methods and metrics we were using. I also managed the Github repository and ensured that all of our materials were properly uploaded and rendered. Megan cross-referenced the course material to ensure we were meeting all of the requirements for the final project as well as did research into specific visualizations and methods of analysis we could use. I feel that our dynamic played to each of our strengths and was evenly distributed across the workload, allowing our current form of the project to be sufficient in both quality and quantity. 
+
+#### Megan:
