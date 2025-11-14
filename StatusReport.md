@@ -7,6 +7,19 @@ Since having our project plan approved and beginning work on our analyses, we ha
 
 **Link to Vaccination Data:** https://www.kaggle.com/datasets/ayufitriani/covid-19-vaccinations-by-our-world-in-data?resource=download 
 
+### Update on Timeline 
+Throughout the project, we have done our best to follow the timeline we proposed in the project plan. Overall, we have made significant progress in completing the beginning phases outlined in our timeline. 
+
+The first phase was Data Collection and Integration. We were able to fully complete this task during October 15-22. All preprocessing, cleaning, and merging of the vaccination and public sentiment datasets were conducted in our Google Colab notebook. 
+
+The second phase in our timeline was Exploratory Data Analysis. This phase took place on October 23-30 and has also been completed. We performed descriptive analyses to summarize vaccination trends over time and across regions. We also summarized sentiment trends from Instagram posts. Our Google Colab notebook includes those statistical summaries and initial findings. 
+
+The Visualization and Interpretation phase was originally planned to take place on October 31-November 7. However, we decided to postpone this phase because we wanted to prioritize studying for the midterm. We plan to resume this task following the completion of the interim status report. During the week of November 17th, we will work to create data visualization that summarizes our data analysis. 
+
+Furthermore, because the Interim Status Report was rescheduled, we ended up not working on it when we had originally planned for November 8-10. For the Interim Status Report, we aim to summarize our main insights and link our findings in our repository. 
+
+Lastly, we will combine the Final Project Development and Submission phases to catch up to our deadline on December 10. We will make this a continuous period. By integrating these phases, this will allow us to finalize our visualizations and ensure analytical reproducibility. We expect to include our final code and visualizations to the repository by December 10th. This adjustment aligns with our current progress while still maintaining overall project quality and deadlines.
+
 
 ### Team Member Contributions
 #### Sarah: 
