@@ -8,14 +8,24 @@ The GitHub repository stores only code and documentation, while all input and ou
 The filesystem layout is as follows:
 
 is477/
+
 │
-├── data/                 
+├── data/   
+
 │   └── .gitkeep          # Placeholder so the folder appears in GitHub
+
 │
-├── .gitignore            
+
+├── .gitignore 
+
 ├── Dataset_Integration_Script.ipynb
+
 ├── Run_All_Script_IS477_Final_Project_Workbook.ipynb
+
 ├── ProjectPlan.md
+
 ├── StatusReport.md
+
 ├── README.md
+
 └── requirements.txt
