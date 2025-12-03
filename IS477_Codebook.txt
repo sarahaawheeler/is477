@@ -1,0 +1,105 @@
+IS477 DATA DICTIONARY (CODEBOOK)
+
+This codebook documents two datasets used in our IS477 project:
+1) vaccination_df
+2) insta_df
+
+1. owid-covid-data.csv (vaccination_df)
+------------------------------------------------------------
+
+IDENTIFICATION VARIABLES
+- iso_code: ISO 3166-1 alpha-3 country code (string)
+- continent: Continent of the observation (string)
+- location: Country or region name (string)
+- date: Observation date in YYYY-MM-DD format (string)
+
+EPIDEMIOLOGICAL VARIABLES: CASES
+- total_cases: Total confirmed COVID-19 cases to date (float)
+- new_cases: New confirmed cases on this date (float)
+- new_cases_smoothed: New cases (7-day smoothed) (float)
+- total_cases_per_million: Total cases per 1M population (float)
+- new_cases_per_million: New cases per 1M population (float)
+- new_cases_smoothed_per_million: Smoothed new cases per 1M (float)
+
+EPIDEMIOLOGICAL VARIABLES: DEATHS
+- total_deaths: Total confirmed deaths to date (float)
+- new_deaths: New deaths on this date (float)
+- new_deaths_smoothed: New deaths (7-day smoothed) (float)
+- total_deaths_per_million: Total deaths per 1M (float)
+- new_deaths_per_million: New deaths per 1M (float)
+- new_deaths_smoothed_per_million: Smoothed new deaths per 1M (float)
+
+TRANSMISSION & POLICY VARIABLES
+- reproduction_rate: Estimated virus reproduction number R (float)
+- stringency_index: Government policy strictness (float)
+
+HOSPITALIZATION VARIABLES
+- icu_patients: ICU COVID patients (float)
+- icu_patients_per_million: ICU patients per 1M (float)
+- hosp_patients: Hospitalized COVID patients (float)
+- hosp_patients_per_million: Hospitalized patients per 1M (float)
+- weekly_icu_admissions: Weekly ICU admissions (float)
+- weekly_icu_admissions_per_million: Weekly ICU admissions per 1M (float)
+- weekly_hosp_admissions: Weekly hospital admissions (float)
+- weekly_hosp_admissions_per_million: Weekly hospital admissions per 1M (float)
+
+TESTING VARIABLES
+- total_tests: Total COVID-19 tests conducted (float)
+- new_tests: New tests conducted (float)
+- total_tests_per_thousand: Total tests per 1,000 (float)
+- new_tests_per_thousand: New tests per 1,000 (float)
+- new_tests_smoothed: New tests (7-day smoothed) (float)
+- new_tests_smoothed_per_thousand: Smoothed tests per 1,000 (float)
+- positive_rate: Positive test rate (float)
+- tests_per_case: Tests administered per confirmed case (float)
+- tests_units: Unit of testing measurement (string)
+
+VACCINATION VARIABLES
+- total_vaccinations: Total administered doses (float)
+- people_vaccinated: Individuals receiving at least one dose (float)
+- people_fully_vaccinated: Fully vaccinated individuals (float)
+- total_boosters: Booster doses administered (float)
+- new_vaccinations: New vaccination doses on this date (float)
+- new_vaccinations_smoothed: Smoothed new vaccinations (float)
+- total_vaccinations_per_hundred: Doses per 100 people (float)
+- people_vaccinated_per_hundred: At least one dose per 100 (float)
+- people_fully_vaccinated_per_hundred: Fully vaccinated per 100 (float)
+- total_boosters_per_hundred: Boosters per 100 (float)
+- new_vaccinations_smoothed_per_million: Smoothed new vaccinations per 1M (float)
+- new_people_vaccinated_smoothed: Smoothed first-dose vaccinations (float)
+- new_people_vaccinated_smoothed_per_hundred: First-dose vaccinations per 100 (float)
+
+DEMOGRAPHIC VARIABLES
+- population_density: People per square kilometer (float)
+- median_age: Median population age (float)
+- aged_65_older: Percent age 65+ (float)
+- aged_70_older: Percent age 70+ (float)
+- gdp_per_capita: GDP per capita PPP-adjusted (float)
+- extreme_poverty: Percent in extreme poverty (float)
+- cardiovasc_death_rate: Cardiovascular death rate (float)
+- diabetes_prevalence: Diabetes prevalence (float)
+- female_smokers: Percent female smokers (float)
+- male_smokers: Percent male smokers (float)
+- handwashing_facilities: Percent with handwashing access (float)
+- hospital_beds_per_thousand: Hospital beds per 1,000 (float)
+- life_expectancy: Life expectancy (float)
+- human_development_index: HDI value (float)
+- population: Total population (float)
+
+EXCESS MORTALITY
+- excess_mortality_cumulative_absolute: Absolute excess deaths (float)
+- excess_mortility_cumulative: Cumulative excess mortality percent (float)
+- excess_mortality: Weekly excess mortality (float)
+- excess_mortality_cumulative_per_million: Cumulative excess mortality per 1M (float)
+
+
+2. CODEBOOK: insta_df
+------------------------------------------------------------
+
+INSTAGRAM VARIABLES
+- PostID: Unique identifier for each Instagram post (string)
+- Post Description: Caption or text associated with the post (string)
+- Date: Date the Instagram post was published (string)
+- Language Code: Short ISO language code (string)
+- Full Language: Full language name (string)
+- Sentiment: Sentiment score or category (numeric or string)
