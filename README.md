@@ -14,12 +14,12 @@ To acquire the data from its original source:
    8. Click CSV to download the full dataset.
    9. Repeat steps 4-5.
           
-Hash for "Dataset.xlsx": 95437d289889f90c76541a477488d6c13633d00af1a996e58b1069e39947d91680eb680ff63a8b0ce6abdfad290d49fd2caa81f9c07636e4f2e80cb01528c1ed
+Hash for "Dataset.xlsx": 2fc56f6a6f5677d9803cf37f41ab53138a0a29afe3aadeab972a3ff7e7a19eefe36d93e41e25a6514fe999fd6d885070d49420f285723853c39c094b2dc7171d
 
 Hash for "owid-covid-data.csv": 5bd0a9d616a1adf91575e54eb803acaab1d1a1212bd839a8f7f05c1de9d0ec614879711b521c011528c278e314580662ec67aa2ad666864e9ec0626d6b45c113
 
 
-This project uses a directory structure. The GitHub repository stores only code and documentation, while all input and output datasets are stored in a separate Box folder (see above) due to size and privacy requirements.
+This project uses a directory structure. The GitHub repository stores only code and documentation, while all input and output datasets are stored in a separate Box folder (see above) due to size and privacy requirements. Regarding naming conventions, we followed the required names in the IS 477 project documentation for all project-oriented documentation.
 
 The filesystem layout is as follows:
 
@@ -28,7 +28,7 @@ is477/
 │
 ├── data/   
 
-│   └── .gitkeep          # Placeholder so the folder appears in GitHub
+│   └── .gitkeep          # Placeholder so the folder appears in GitHub, input data files after downloading from the Box folder.
 
 │
 
@@ -36,12 +36,16 @@ is477/
 
 ├── Dataset_Integration_Script.ipynb
 
-├── Run_All_Script_IS477_Final_Project_Workbook.ipynb
+├── IS477_Codebook.txt
 
 ├── ProjectPlan.md
 
+├── README.md
+
+├── Run_All_Script_IS477_Final_Project_Workbook.ipynb
+
 ├── StatusReport.md
 
-├── README.md
+├── pip_freeze.md
 
 └── requirements.txt
