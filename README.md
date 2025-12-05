@@ -15,6 +15,7 @@ To acquire the data from its original source:
    9. Repeat steps 4-5.
           
 Hash for "Dataset.xlsx": 95437d289889f90c76541a477488d6c13633d00af1a996e58b1069e39947d91680eb680ff63a8b0ce6abdfad290d49fd2caa81f9c07636e4f2e80cb01528c1ed
+
 Hash for "owid-covid-data.csv": 5bd0a9d616a1adf91575e54eb803acaab1d1a1212bd839a8f7f05c1de9d0ec614879711b521c011528c278e314580662ec67aa2ad666864e9ec0626d6b45c113
 
 
