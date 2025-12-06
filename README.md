@@ -29,25 +29,33 @@ This project uses a directory structure. The GitHub repository stores only code 
 The filesystem layout is as follows:
 
 is477/
-
-│
-├── data/   
-
-│   └── .gitkeep          # Placeholder so the folder appears in GitHub, input data files after downloading from the Box folder.
-
 │
 
-├── .gitignore 
+├── data/
 
-├── Dataset_Integration_Script.ipynb
+│   └── .gitkeep                               # Placeholder so the folder appears in GitHub; actual data stored in Box.
+
+│
+
+├── scripts/
+
+│   ├── Data_Integration_Script.ipynb           # Script for integrating datasets.
+
+│   ├── Data_Quality_Script.ipynb               # Script for cleaning data.
+
+│   ├── Data_Analysis_Script.ipynb              # Script for analysis and visualizations.
+
+│   ├── Run_All_Script_IS477_Final_Project_Workbook.ipynb   # Script to reproduce the entire workflow.
+
+│
+
+├── .gitignore
 
 ├── IS477_Codebook.txt
 
 ├── ProjectPlan.md
 
 ├── README.md
-
-├── Run_All_Script_IS477_Final_Project_Workbook.ipynb
 
 ├── StatusReport.md
 
