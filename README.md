@@ -40,22 +40,22 @@ The vaccination dataset followed a clear schema and codebook published on GitHub
 After cleaning and integrating our data, we conducted exploratory data analysis. Of the half a million posts in the dataset, 343,041 posts were in English. For vaccinations the total cumulative vaccinations given was 10.9 billion, which ultimately accounts for both the first and second doses of the vaccination, even if they were given to the same person.
 We plotted the positive sentiment distribution and new vaccination distribution over time. This is shown in Figure 1. We initially presumed that, on the days where more people got vaccinations, we would similarly see an increase in positive sentiment proportion due to more people feeling hopeful and less fatigued by the COVID-19 pandemic. There was no immediate distribution alignment at first glance, though we noted that less people getting the vaccine may be related to lessened disease prevalence (aka the end of the pandemic and subsequent rise in mood leading to increased positive sentiment) as time went on. Please note that our secondary y-axis uses scientific notation, where 1e7 represents 1 × 10^7 (ten million). This means vaccination counts on the blue line are plotted in units of millions per day. 
 
-!(photos/vaccination vs proportion.png)
+!(https://github.com/sarahaawheeler/is477/blob/e47aa6efb2b2177f9e2dfa9a65201f21bb7cc92d/photos/vaccination%20vs%20proportion.png)
 *Figure 1. The distribution of positive sentiment proportion in posts in comparison to new vaccinations per day (in millions).*
 
 In addition to visualizations, we also investigated the correlated relationship between vaccination counts and public sentiment using Pearson correlation coefficients. We chose the Pearson correlation coefficient because it provides a standardized measure between two continuous variables. This correlation is suitable for our project because both variables are continuous and approximately normally distributed. We wanted to assess whether increases in one variable correspond with increases or decreases in the other. 
 
 For new vaccinations and positive sentiment proportion, the correlation coefficient was 0.2219, indicating a weak positive relationship. However, we also acknowledge that this coefficient is greater than zero. Therefore, it suggests that as new vaccinations increase, the positive sentiment proportion tends to increase slightly (see Figure 2). Conclusively, this effect is minimal and not strong enough to infer any meaningful relationship. If the correlation coefficient was 0.7 or greater, we would be able to classify the relationship as a strong linear relationship. From our findings, this reinforces the statistical principle that correlation does not imply causation. Even if we see a positive trend in public sentiment corresponding with new vaccinations, we cannot conclude that public sentiment directly caused vaccination shifts.
 
-!(photos/New Vaccinations vs Pos Sent.png)
+!(https://github.com/sarahaawheeler/is477/blob/e47aa6efb2b2177f9e2dfa9a65201f21bb7cc92d/photos/New%20Vaccinations%20vs%20Pos%20Sent.png)
 *Figure 2. New vaccinations and positive sentiment proportion (Pearson Correlation: 0.2219).*
 
 Similarly, the correlation between cumulative vaccinations and positive sentiment proportion was only 0.0702, which is near zero and indicates no linear relationship. This outcome was expected because cumulative vaccinations are a total that gradually increases over time. Public sentiment fluctuates based on numerous other factors. These factors could range from news events, opinion pieces, policies, popular culture trends, etc. The extremely low coefficient suggests that public sentiment is one factor among many influencing vaccinations. They are not a primary factor of daily vaccination changes captured in our dataset.
 
-!(photos/Cumulative Vaccinations vs Pos Sent Prop.png)
+!(https://github.com/sarahaawheeler/is477/blob/e47aa6efb2b2177f9e2dfa9a65201f21bb7cc92d/photos/Cumulative%20Vaccinations%20vs%20Pos%20Sent%20Prop.png)
 *Figure 3. Positive sentiment proportion in posts in comparison to the cumulative number of vaccinations (in billions).*
 
-!(photos/Cumulative Vaccinations & Positive Sentiment Prop.png)
+!(https://github.com/sarahaawheeler/is477/blob/e47aa6efb2b2177f9e2dfa9a65201f21bb7cc92d/photos/Cumulative%20Vaccinations%20%26%20Positive%20Sentiment%20Prop.png)
 
 *Figure 4. Cumulative vaccinations and positive sentiment proportion (Pearson Correlation: 0.0702).*
 
