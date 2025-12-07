@@ -4,6 +4,27 @@
 * Megan Sia
 * Sarah Wheeler
 
+### DCAT Metadata
+```json
+{
+  "@type": "dcat:Dataset",
+  "accessLevel": "public",
+  "contactPoint": {
+    "fullNames": "Megan Sia", "Sarah Wheeler"
+  },
+  "description": "This dataset integrates global COVID-19 vaccination statistics from Our World in Data with over 500,000 Instagram posts labeled for sentiment. The project examines how public sentiment toward the pandemic changed before and after vaccine rollout, and whether shifts in vaccination rates correspond with changes in positive sentiment.",
+  "keyword": [
+    "COVID-19",
+    "Instagram public sentiment",
+    "vaccination",
+    "public health"
+  ],
+  "modified": "2025-12-07",
+  "title": "Analyzing COVID-era Instagram Sentiment in Relation to Vaccination Rates",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+```
+
 ### Summary
 We aim to understand how public sentiment surrounding the COVID-19 pandemic has shifted over time, with particular attention to the period before and after the introduction of COVID-19 vaccines, as well as different vaccine uptake rates. The pandemic, by forcing people into quarantine and limiting in-person interaction, made digital platforms one of the primary channels through which individuals expressed their thoughts, fears, and hopes. As a result, online platforms such as Instagram provide a large dataset for tracking evolving public opinion.
 
