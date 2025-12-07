@@ -118,7 +118,7 @@ Our current findings highlight the relationship between Instagram public sentime
 
 When developing the code for this project, we used Python 3.12.12 and a Linux operation system. Our notebook ran on a Google Compute Engine (GCE), not our local machines. The pip freeze output can be found in our workbook. 
 
-The Instagram sentiment dataset (Thakur, 2025) and the vaccination dataset (Mathieu et al., 2024) are both under the Creative Commons Attribution 4.0 International license. No new software or data was created during the development of this project.
+The Instagram sentiment dataset (Thakur, 2025) and the vaccination dataset (Mathieu et al., 2024) are both under the Creative Commons Attribution 4.0 International license. No new software or data was created during the development of this project, but all outputs including integrated datasets, visualizations, and Python scripts fall under the Creative Commons Attribution 4.0 International license. 
 
 Box Folder: https://uofi.app.box.com/folder/352195874023?s=e7e2673dnqdzk1yvtle374cq8okac1um 
 
