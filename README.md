@@ -69,6 +69,47 @@ In contrast to examining positive sentiment, our future research should investig
 
 Our current findings highlight the relationship between Instagram public sentiment and vaccination patterns during the COVID-era. We were able to integrate our data to be fit for use, and our merged dataset met our research questions. Future research may benefit from more targeted data collection strategies and grouping data. Instead of focusing on Instagram, we could look into different social media platforms such as Facebook or Twitter. Similarly, using verified government or institutional sources for sentiment could reduce bias from social media sampling limitations. There are several different approaches we can take to enhance our interpretability and potentially produce stronger results.
 
+### Reproducibility
+1. Clone or download our project.
+2. Set up the environment by choosing one of the options below.
+	
+   OPTION A: Google Colab
+   
+      - a. Open Google Colab (our original IDE)
+      - b. Upload and open the run-all script (Run_All_Script_IS477_Final_Project.ipynb) in Google Colab
+      - c. Create or upload our requirements.txt using:
+         - i. !pip install -r requirements.txt
+   
+	OPTION B: Other IDE
+
+      - a. Run cd is477 (or any other project name you have saved our repo under)
+      - b. Open your preferred IDE (ex: Visual Studio Code)
+      - c. Upload the folder to your IDE
+      - d. Open the run all script (Run_All_Script_IS477_Final_Project.ipynb) 
+      - e. Comment out or delete the Google Drive set-up cells (cells 2 and 3)
+      - f. Uncomment cell 4
+      - g. Create or upload our requirements.txt using
+         - i. !pip install -r requirements.txt
+   
+4. OPTION A: Upload the datasets from the “input_data” Box folder into your Google Drive. Do not put the datasets in a folder.
+5. OPTION B: Upload the datasets from the “input_data” folder in the Box link into the “data” sub-folder of the project folder.
+5.Run each cell in the notebook starting from the beginning. You may need to install openpyxl. 
+
+When developing the code for this project, we used Python 3.12.12 and a Linux operation system. Our notebook ran on a Google Compute Engine (GCE), not our local machines. The pip freeze output can be found in our workbook. 
+
+The Instagram sentiment dataset (Thakur, 2025) and the vaccination dataset (Mathieu et al., 2024) are both under the Creative Commons Attribution 4.0 International license. No new software or data was created during the development of this project.
+
+Box Folder: https://uofi.app.box.com/folder/352195874023?s=e7e2673dnqdzk1yvtle374cq8okac1um 
+
+### References 
+Google. (2025). Google Colaboratory. Retrieved December 7, 2025, from https://colab.research.google.com/ 
+
+Mathieu, E., Ritchie, H., Ortiz-Ospina, E. (2024) A global database of COVID-19 vaccinations. Natural Humanities Behavior (2024). https://doi.org/10.1038/s41562-021-01122-8
+
+Thakur, N. (2025). Five Years of COVID-19 Discourse on Instagram: A Labeled Instagram Dataset of Over Half a Million Posts for Multilingual Sentiment Analysis [Data set]. Zenodo. https://doi.org/10.5281/zenodo.13896353
+
+Thakur N. (2025) “Five Years of COVID-19 Discourse on Instagram: A Labeled Instagram Dataset of Over Half a Million Posts for Multilingual Sentiment Analysis”, Proceedings of the 7th International Conference on Machine Learning and Natural Language Processing (MLNLP 2024), Chengdu, China, October 18-20, (Paper accepted for publication, Preprint available at: https://arxiv.org/abs/2410.03293)
+
 
 ## Data Collection & Acquisition
 Link to Box folder with datasets: https://uofi.box.com/s/e7e2673dnqdzk1yvtle374cq8okac1um
