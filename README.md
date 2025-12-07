@@ -142,12 +142,6 @@ The filesystem layout is as follows:
 is477/
 │
 
-├── data/
-
-│   └── .gitkeep                               # Placeholder so the folder appears in GitHub; actual data stored in Box.
-
-│
-
 ├── scripts/
 
 │   ├── Data_Integration_Script.ipynb           # Script for integrating datasets.
@@ -157,6 +151,24 @@ is477/
 │   ├── Data_Analysis_Script.ipynb              # Script for analysis and visualizations.
 
 │   ├── Run_All_Script_IS477_Final_Project_Workbook.ipynb   # Script to reproduce the entire workflow.
+
+│
+
+├── data/
+
+│   └── .gitkeep                               # Placeholder so the folder appears in GitHub; actual data stored in Box.
+
+│
+
+├──  photos/
+
+│   └── Cumulative Vaccinations & Positive Sentiment Prop.png   
+
+|   └── Cumulative Vaccinations vs Pos Sent Prop.png
+
+|   └── New Vaccinations vs Pos Sent.png
+
+|   └── Vaccination vs proportion.png
 
 │
 
